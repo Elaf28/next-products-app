@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 
-import User from '@/models/User';
+import User from '@/lib/models/User';
 
 import { verifyToken } from '@/lib/token';
 import dbConnect from '@/lib/mongodb';
